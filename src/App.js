@@ -1,5 +1,6 @@
 import React from "react";
 import Index from "pages/index";
+import About from "pages/about";
 import Page404 from "pages/page404";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
@@ -18,6 +19,7 @@ export default () => (
         <Switch>
         			<Route exact path='/' component={Index}/>
 			<Route exact path='/index' component={Index}/>
+			<Route exact path='/about' component={About}/>
 			<Route component={Page404}/>
         </Switch>
     </Router>
