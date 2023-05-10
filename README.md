@@ -17,6 +17,11 @@
          alt="Create React App version" />
   </a>
   
+  <a href="https://github.com/acompworld-technosoft/React-Visual-Composer/pulls">
+    <img src="https://badgen.net/github/prs/acompworld-technosoft/React-Visual-Composer" alt="Pull Request Amount">
+  </a>
+  <img src="https://badgen.net/github/last-commit/acompworld-technosoft/React-Visual-Composer" alt="Last commit date" />
+            
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue"
          alt="License">
